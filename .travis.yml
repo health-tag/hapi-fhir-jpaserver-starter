@@ -4,11 +4,11 @@
 
 # Use VM based build environment
 sudo: required
-dist: trusty
+dist: jammy
 
 language: java
 jdk:
-    - openjdk11
+    - openjdk17
    #- oraclejdk9
 
 env:
